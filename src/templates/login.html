@@ -1,4 +1,7 @@
 <form action="" method="post">
+    {% if error %}
+    <strong>{{ error }}</strong>
+    {% endif %}
     {{ form.hidden_tag() }}
     {{ form.name.label }} {{ form.name }}
     {{ form.room.label }} {{ form.room }}
