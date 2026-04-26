@@ -28,6 +28,8 @@ def login():
             if form.create.data:
                 if room in rooms:
                     error = "Room already exists"
+                else:
+                    rooms.append(room)
             if not error:
                 session['name'] = name
                 session['room'] = room
