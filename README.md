@@ -1,1 +1,1 @@
-DONOTREADME
+Shared Whiteboard is a web-based application designed to make real-time collaboration simple and intuitive. It allows multiple users to join a shared session and interact on a common whiteboard, making it ideal for brainstorming, teaching, planning, or discussing ideas remotely
